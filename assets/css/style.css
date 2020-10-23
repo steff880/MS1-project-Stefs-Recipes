@@ -1,9 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.conatiner-landing {
-  background: url("../images/landing-background.jpg") no-repeat bottom right fixed;
+body {
+  font-family: "Lato", sans-serif;
 }
+
+/* Navigation */
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand {
+  padding-bottom: 0;
+}
+
+/* Landing */
+
+.conatiner-landing {
+  background: url(../images/landing-background4.jpg) no-repeat bottom center fixed;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Media Queries */
+
+/*
+@media only screen and (max-width: 600px) {
+  .conatiner-landing {
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+}
+*/
