@@ -73,6 +73,14 @@ body {
   margin-bottom: 30px;
 }
 
+.block-divider-about {
+  background-color: #000;
+  margin-bottom: 30px;
+  width: 75px;
+  height: 2px;
+  align-self: center;
+}
+
 /* Buttons */
 
 .btn-cta {
@@ -88,15 +96,80 @@ body {
   border: 1px solid #ffc107;
 }
 
+/* About */
+
+.container-about {
+  width: 100%;
+  height: auto;
+  background-color: rgb(236, 233, 233);
+}
+
+.about {
+  padding-bottom: 20px;
+}
+
+.container-about .about-heading {
+  font-size: 40px;
+  margin-top: 20px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.container-about i {
+  font-size: 30px;
+}
+
+.about-text-container {
+  margin-bottom: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.about-text {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  letter-spacing: 2px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.about-media {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.about-media img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Media Queries */
 
 /*
-@media only screen and (max-width: 600px) {
-  .conatiner-landing {
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-  }
+
+Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {...}
+*/
+/*
+Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {...}
+*/
+
+/* Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {
+  
+  
 }
+*/
+
+/*
+Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}
+
+Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {...}
+
 */
