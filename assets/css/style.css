@@ -75,10 +75,10 @@ body {
 
 .block-divider-about {
   background-color: #000;
-  margin-bottom: 30px;
-  width: 75px;
+  margin: 0 auto;
   height: 2px;
-  align-self: center;
+  width: 100px;
+  border: 0;
 }
 
 /* Buttons */
@@ -102,6 +102,7 @@ body {
   width: 100%;
   height: auto;
   background-color: rgb(236, 233, 233);
+  padding-top: 40px;
 }
 
 .about {
@@ -111,6 +112,7 @@ body {
 .container-about .about-heading {
   font-size: 40px;
   margin-top: 20px;
+  margin-bottom: 20px;
   letter-spacing: 3px;
   font-weight: bold;
 }
@@ -119,31 +121,34 @@ body {
   font-size: 30px;
 }
 
-.about-text-container {
-  margin-bottom: 20px;
-  height: 100%;
+.about-content-wrapper {
+  position: relative;
   width: 100%;
+  height: auto;
+  margin-top: 20px;
 }
 
-.about-text {
+.about-content-wrapper .about-text {
   width: 100%;
-  max-width: 600px;
-  height: auto;
+  height: 100%;
+}
+
+.about-content-wrapper .about-text p {
   letter-spacing: 2px;
   line-height: 40px;
   font-size: 20px;
+  margin-bottom: 0;
 }
 
-.about-media {
+.about-content-wrapper .about-image {
   height: 100%;
   width: 100%;
-  display: block;
 }
 
-.about-media img {
+.about-content-wrapper .about-image img {
   width: 100%;
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 /* Media Queries */
@@ -159,17 +164,30 @@ Small devices (portrait tablets and large phones, 600px and up)
 */
 
 /* Medium devices (landscape tablets, 768px and up) 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1024x) {
   
-  
+}*/
+
+/*Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .about-content-wrapper .about-text {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+  }
 }
-*/
 
-/*
-Large devices (laptops/desktops, 992px and up) 
-@media only screen and (min-width: 992px) {...}
+/*Extra large devices (large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+  .about-content-wrapper .about-text {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
 
-Extra large devices (large laptops and desktops, 1200px and up)
-@media only screen and (min-width: 1200px) {...}
-
-*/
+  .about-content-wrapper .about-image {
+    height: 100%;
+    width: 95%;
+  }
+}
