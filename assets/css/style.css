@@ -76,8 +76,8 @@ body {
 .block-divider-about {
   background-color: #000;
   margin: 0 auto;
-  height: 2px;
-  width: 100px;
+  height: 3px;
+  width: 110px;
   border: 0;
 }
 
@@ -105,20 +105,24 @@ body {
   padding-top: 40px;
 }
 
-.about {
+.about-section {
   padding-bottom: 20px;
 }
 
 .container-about .about-heading {
+  margin-top: 30px;
+  padding: 0;
+}
+
+.about-heading h2 {
   font-size: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px;
   letter-spacing: 3px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .container-about i {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .about-content-wrapper {
@@ -134,6 +138,7 @@ body {
 }
 
 .about-content-wrapper .about-text p {
+  text-align: left;
   letter-spacing: 2px;
   line-height: 40px;
   font-size: 20px;
@@ -189,5 +194,20 @@ Small devices (portrait tablets and large phones, 600px and up)
   .about-content-wrapper .about-image {
     height: 100%;
     width: 95%;
+    box-shadow: 11px -8px 5px 2px #636161;
+  }
+
+  .container-about .about-heading h2 {
+    padding-left: 3.5em;
+    padding-bottom: 20px;
+    float: left;
+  }
+
+  .block-divider-about {
+    float: left;
+    position: absolute;
+    bottom: 0;
+    margin-left: 10em;
+    width: 110px;
   }
 }
