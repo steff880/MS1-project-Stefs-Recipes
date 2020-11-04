@@ -293,10 +293,12 @@ Small devices (portrait tablets and large phones, 600px and up)
 @media only screen and (min-width: 600px) {...}
 */
 
-/* Medium devices (landscape tablets, 768px and up) 
-@media only screen and (max-width: 1024x) {
-  
-}*/
+/*Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1024px) {
+  .about-content-wrapper .about-text {
+    margin-bottom: 10px;
+  }
+}
 
 /*Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
