@@ -28,7 +28,7 @@ body {
 /* Landing */
 
 .conatiner-landing {
-  background: url(../images/landing-background4.jpg) no-repeat bottom center fixed;
+  background: url(../images/landing-background.jpg) no-repeat bottom center fixed;
   height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -73,12 +73,27 @@ body {
   margin-bottom: 30px;
 }
 
-.block-divider-about {
-  background-color: #000;
+.block-divider {
   margin: 0 auto;
   height: 3px;
   width: 110px;
   border: 0;
+}
+
+.block-divider-about {
+  background-color: #000;
+}
+
+.block-divider-recipes {
+  background-color: orange;
+}
+
+.block-divider-ingredients {
+  background-color: rgb(29, 28, 28);
+}
+
+.block-divider-method {
+  background-color: rgb(29, 28, 28);
 }
 
 /* Buttons */
@@ -103,6 +118,7 @@ body {
   height: auto;
   background-color: rgb(236, 233, 233);
   padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .about-section {
@@ -111,6 +127,7 @@ body {
 
 .container-about .about-heading {
   margin-top: 30px;
+  margin-bottom: 20px;
   padding: 0;
 }
 
@@ -122,7 +139,7 @@ body {
 }
 
 .container-about i {
-  font-size: 35px;
+  font-size: 38px;
 }
 
 .about-content-wrapper {
@@ -156,6 +173,114 @@ body {
   height: 100%;
 }
 
+/* Recipes */
+
+.container-recipes {
+  width: 100%;
+  height: auto;
+  background-color: rgb(236, 233, 233);
+  padding-bottom: 20px;
+}
+
+.recipes-section {
+}
+
+.container-recipes .recipes-heading {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  padding: 0;
+  position: relative;
+}
+
+.recipes-heading h2 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.recipes-heading i {
+  font-size: 30px;
+  color: red;
+  position: absolute;
+  top: 8px;
+}
+
+.recipes-content-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.recipes-content-wrapper .recipes-pizza {
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+}
+
+.recipes-pizza img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.recipe-name-container {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.recipe-name {
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.ingredients-heading,
+.method-heading {
+  text-align: center;
+}
+
+.ingredients-heading {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.ingredients-heading,
+.method-heading h4 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.igredients-list {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.igredients-list li {
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+.method-container {
+  width: 100%;
+}
+
+.method-heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.method {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.method p {
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: left;
+  line-height: 30px;
+}
+
 /* Media Queries */
 
 /*
@@ -179,6 +304,24 @@ Small devices (portrait tablets and large phones, 600px and up)
     width: 80%;
     height: 100%;
     margin: 0 auto;
+  }
+
+  .about-content-wrapper .about-image {
+    box-shadow: 11px -8px 5px 2px #636161;
+  }
+
+  .recipes-content-wrapper .recipes-pizza {
+    box-shadow: 11px -8px 5px 2px #636161;
+  }
+
+  .igredients-list {
+    padding-top: 50px;
+    padding-left: 25px;
+  }
+
+  .method {
+    margin: 0 auto;
+    width: 80%;
   }
 }
 
@@ -209,5 +352,9 @@ Small devices (portrait tablets and large phones, 600px and up)
     bottom: 0;
     margin-left: 10em;
     width: 110px;
+  }
+
+  .recipes-content-wrapper .recipes-pizza {
+    box-shadow: 11px -8px 5px 2px #636161;
   }
 }
