@@ -1,8 +1,16 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&display=swap");
 
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -30,13 +38,18 @@ body {
 .container-landing {
     background: url(../images/landing-background.jpg) no-repeat bottom center fixed;
     height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
 
     position: relative;
@@ -301,8 +314,8 @@ body {
 /* Contact */
 
 .container-contact {
-    background: -webkit-gradient(linear, left top, left bottom, from(#5c5b5b), to(rgb(236, 233, 233)));
     background: -o-linear-gradient(top, #5c5b5b, rgb(236, 233, 233));
+    background: -webkit-gradient(linear, left top, left bottom, from(#5c5b5b), to(rgb(236, 233, 233)));
     background: linear-gradient(to bottom, #5c5b5b, rgb(236, 233, 233));
     padding-bottom: 20px;
 }
@@ -338,11 +351,15 @@ body {
     margin-bottom: 0;
 }
 
+.form-container input {
+    margin-bottom: 15px;
+}
+
 /* Footer */
 
 footer {
-    background: -webkit-gradient(linear, right top, left top, from(#afc4d8), to(#343a40));
     background: -o-linear-gradient(right, #afc4d8, #343a40);
+    background: -webkit-gradient(linear, right top, left top, from(#afc4d8), to(#343a40));
     background: linear-gradient(to left, #afc4d8, #343a40);
     height: 100px;
 }
@@ -350,7 +367,11 @@ footer {
 .social-links {
     text-align: center;
     padding-top: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
 }
 
@@ -399,6 +420,7 @@ footer {
     }
 
     .about-content-wrapper .about-image {
+        -webkit-box-shadow: 11px -8px 5px 2px #636161;
         box-shadow: 11px -8px 5px 2px #636161;
     }
 
@@ -406,7 +428,12 @@ footer {
         padding-left: 40px;
     }
 
+    .container-recipes .recipes-heading {
+        padding-right: 40px;
+    }
+
     .recipes-content-wrapper .recipes-image {
+        -webkit-box-shadow: 11px -8px 5px 2px #636161;
         box-shadow: 11px -8px 5px 2px #636161;
     }
 
@@ -446,6 +473,7 @@ footer {
     .about-content-wrapper .about-image {
         height: 100%;
         width: 95%;
+        -webkit-box-shadow: 11px -8px 5px 2px #636161;
         box-shadow: 11px -8px 5px 2px #636161;
     }
 
@@ -468,6 +496,7 @@ footer {
     }
 
     .recipes-content-wrapper .recipes-image {
+        -webkit-box-shadow: 11px -8px 5px 2px #636161;
         box-shadow: 11px -8px 5px 2px #636161;
     }
 
