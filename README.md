@@ -147,15 +147,14 @@ no syntax errors in the project.
             3.  In the **Footer** of the site, social media icons are pushed to the left and have no
                 padding in between.
 
-    -   Tested on Chrome using different devices via google chrome device emulators
-
+    -   Tested on Chrome using different devices via google chrome device emulators and all works fine.
     -   Also tested on the folowing physical mobile devices:
 
-        1.  Samsung Galaxy S9 plus
+        1.  Samsung Galaxy S9 plus and works fine
 
-        2.  Samsung Galaxy s8
+        2.  Samsung Galaxy s8 and works fine
 
-        3.  Huawei P30
+        3.  Huawei P30 adn works fine
 
 ### Testing User Stories
 
