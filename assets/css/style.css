@@ -361,9 +361,9 @@ and modified to fit project needs  */
 /* Footer */
 
 footer {
-    background: -o-linear-gradient(right, #afc4d8, #343a40);
-    background: -webkit-gradient(linear, right top, left top, from(#afc4d8), to(#343a40));
-    background: linear-gradient(to left, #afc4d8, #343a40);
+    background: -o-linear-gradient(right, #7390ad, #343a40);
+    background: -webkit-gradient(linear, right top, left top, from(#7390ad), to(#343a40));
+    background: linear-gradient(to left, #7390ad, #343a40);
     height: 100px;
 }
 
@@ -384,7 +384,7 @@ footer {
 }
 
 .social-links i:hover {
-    color: #f17b2c;
+    color: #e15636;
 }
 
 /* Media Queries */
