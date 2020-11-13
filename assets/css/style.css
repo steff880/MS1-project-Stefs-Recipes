@@ -34,7 +34,8 @@ body {
 }
 
 /* Landing */
-
+/* Code for full-page-background-image found on https://css-tricks.com/perfect-full-page-background-image/, also found in the videos for Whiskey Drop site lesson 
+and modified to fit project needs  */
 .container-landing {
     background: url(../images/landing-background.jpg) no-repeat bottom center fixed;
     height: 100vh;
@@ -312,6 +313,8 @@ body {
 }
 
 /* Contact */
+
+/* Code for linear-gradient background taken from https://www.w3schools.com/css/css3_gradients.asp and modified to fit project needs */
 
 .container-contact {
     background: -o-linear-gradient(top, #5c5b5b, rgb(236, 233, 233));
