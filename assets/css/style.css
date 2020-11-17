@@ -201,6 +201,9 @@ and modified to fit project needs  */
     width: 100%;
 }
 
+/* Code bellow taken from https://www.w3schools.com/css/css_rwd_images.asp 
+   Code used for About Section and Recipe section and modified to fit priject needs.  */
+
 .about-content-wrapper .about-image img {
     width: 100%;
     max-width: 100%;
@@ -220,7 +223,8 @@ and modified to fit project needs  */
 .container-recipes .recipes-heading {
     margin-top: 40px;
     margin-bottom: 25px;
-    padding: 0;
+    padding-left: 0;
+    padding-right: 20px;
     position: relative;
 }
 
@@ -389,20 +393,16 @@ footer {
 
 /* Media Queries */
 
-/*
-
 /*Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
     .recipe-name {
         text-align: center;
     }
 }
 
-/*Small devices (portrait tablets and large phones, 600px and up)
- @media only screen and (min-width: 600px) {...;}
-*/
-
 /*Medium devices (landscape tablets, 768px and up) */
+
 @media only screen and (max-width: 1024px) {
     .about-content-wrapper .about-text {
         margin-bottom: 10px;
@@ -415,6 +415,7 @@ footer {
 }
 
 /*Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (min-width: 992px) {
     .about-content-wrapper .about-text {
         width: 80%;
@@ -465,6 +466,7 @@ footer {
 }
 
 /*Extra large devices (large laptops and desktops, 1200px and up)*/
+
 @media only screen and (min-width: 1200px) {
     .about-content-wrapper .about-text {
         width: 80%;

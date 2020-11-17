@@ -73,6 +73,10 @@ I felt highly motivated to combine that knowledge with my other passion- cooking
 
 -   Text information
 
+### Features Left to Implement
+
+-   Change the resolution of the logo for better view on mobile devices
+
 ---
 
 ## Technologies Used
@@ -243,14 +247,18 @@ no syntax errors in the project.
 
 ### Code
 
--   Code for full page background image found on https://css-tricks.com/perfect-full-page-background-image/, also found in the videos for [Whiskey Drop](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/2aca2c94a518427495cc1b4bc641ccbf/?child=first) site lesson
+-   Code for full page background image found on https://css-tricks.com/perfect-full-page-background-image/, also found in the videos for [Whiskey Drop](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/2aca2c94a518427495cc1b4bc641ccbf/?child=first) website lesson
     and modified to fit project needs.
 
 -   Code for linear-gradient background taken from https://www.w3schools.com/css/css3_gradients.asp and modified to fit project needs
 
+-   Code for responsive image taken from https://www.w3schools.com/css/css_rwd_images.asp and modified to fit project needs.
+
 -   [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 -   [Autoprefixer CSS online](https://autoprefixer.github.io/) - Used to add vendor prefixes to my css code.
+
+-   Code for navbar taken from [Whiskey Drop](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/2aca2c94a518427495cc1b4bc641ccbf/?child=first) website lesson, also found in [Bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/#nav)
 
 ### Content
 
@@ -286,3 +294,4 @@ no syntax errors in the project.
 -   The team at Code Institute, for teaching me the necessary skills to create this site.
 -   @JimLynx_lead from the Slack community, for his helpful sessions on MS1 planning and how to use Git and Github
 -   Used [Whiskey Drop Lesson](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/2aca2c94a518427495cc1b4bc641ccbf/?child=first) and [Resume Project](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/36e3366dbdaf40fd852994c51f9f8595/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%4036e3366dbdaf40fd852994c51f9f8595) for ideas and inspiration.
+-   [w3schools](https://www.w3schools.com/default.asp) for all the usefull information found on thr site.
